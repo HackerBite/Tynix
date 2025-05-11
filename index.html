@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descarga de Setup - TynixWeb</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #74ebd5, #acb6e5);
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+        .container {
+            flex: 1;
+            padding: 100px 20px;
+            text-align: center;
+            animation: fadeIn 1s ease-in;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        p {
+            font-size: 1.3em;
+            margin-bottom: 40px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .download-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 18px 36px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            border-radius: 50px;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+            transition: all 0.4s ease;
+        }
+        .download-button:hover {
+            background-color: #45a049;
+            transform: scale(1.05) translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+        }
+        .footer {
+            padding: 20px;
+            font-size: 0.9em;
+            color: #666;
+            background: rgba(255, 255, 255, 0.1);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @media (max-width: 600px) {
+            h1 { font-size: 2em; }
+            p { font-size: 1em; }
+            .download-button { padding: 12px 24px; font-size: 16px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenido a TynixWeb</h1>
+        <p>Descarga nuestro software con un solo clic y disfruta de la experiencia.</p>
+        <a href="Tynix_Installer.exe" class="download-button">Descargar Setup</a>
+    </div>
+    <div class="footer">
+        <p>&copy; 2023 TynixWeb. Todos los derechos reservados.</p>
+    </div>
+</body>
+</html>
